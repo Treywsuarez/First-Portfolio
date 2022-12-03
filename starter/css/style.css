@@ -10,7 +10,7 @@ html{
 }
 
 body{
-  background: #161b22;
+  background: black;
   color: #fff;
 }
 
@@ -90,12 +90,11 @@ span{
   color: red;
 }
 
-
-/*Styling About Me section*/
-
-section{
+main{
   background-color:#21262d;
 }
+
+/*Styling About Me section*/
 
 #about{
   padding:80px 0px;
@@ -142,7 +141,7 @@ section{
 }
 
 .skills-list div{
-  background:#21262d;
+  background:black;
   padding: 40px;
   font-size: 13px;
   font-weight: 300;
@@ -151,7 +150,7 @@ section{
 }
 
 .skills-list div:hover{
-  background:#21262d;
+  background:#b1afb0;
   transform: translateY(-30px);
 }
 
@@ -223,6 +222,39 @@ section{
   text-align: center;
 }
 
+/*Styling Contact Me section*/
+
+.contact-form form{
+  width: 50%;
+}
+
+form input, form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  color: black;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+form .btn2{
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/*Styling Footer section*/
+.copyright{
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  font-weight: 300;
+  margin-top: 5px;
+}
 
 nav .fa-solid{
   display: none;
@@ -230,7 +262,7 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
   #header{
-      background-image: none !important;
+      background-color: black;
   }
 
 p{
