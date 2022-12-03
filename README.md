@@ -12,6 +12,8 @@ HTML5 was used to create the layout of the webpage along with my different secti
 
 ![alt text](./starter/images/portfoliosc.JPG)
 
+Display page by clicking - https://treywsuarez.github.io/First-Portfolio/
+
 ## Credits
 
 Some assets were taken from font awesome cdn to create image icons 
