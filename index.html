@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./starter/css/style.css">
+  <script src="https://kit.fontawesome.com/cb2c037dac.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -16,9 +17,12 @@
           <img src="./starter/images/Cartoon_space_rocket.png" class="logo" alt="">
           <ul id="sidemenu">
             <li><a href="#about">About</a></li>
+            <li><a href="#about">Skills</a></li>
             <li><a href="#Portfolio">Portfolio</a></li>
             <li><a href="#Contact">Conatct Me</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
           </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
           <p>Front-End Web Developer</p>
@@ -26,6 +30,36 @@
         </div>
       </div>
   </header>
+
+  <!--About Me section-->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <h1 class="sub-title">About Me</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo integer malesuada nunc vel. Pulvinar sapien et ligula ullamcorper malesuada proin. Convallis convallis tellus id interdum. Amet mauris commodo quis imperdiet massa tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo integer malesuada nunc vel. </p> <br><br>
+          <h1 class="sub-title">Contact Details</h1>
+          <p>Phone Number: 07533 681000 <br>Email Address: Treyxsuarez@gmail.com </p>
+        </div>
+        <div class="about-col-2">
+          <img src="./starter/images/IMG_3959.jpeg" alt="">
+        </div>
+      </div>  
+    </div>
+  </section>
+
+  <script>
+
+    var sidemenu =document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+ </script>
 
 </body>
 </html>
